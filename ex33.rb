@@ -9,4 +9,10 @@ while i < 10
     puts "i at the top is #{i}"
     i = i + 1
     puts "i at the bottom is #{i}"
+    number << i
 end
+
+number.each do |num|
+    puts "the number is #{num}"
+end
+
